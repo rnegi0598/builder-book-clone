@@ -1,0 +1,10 @@
+
+* {
+  font-family: "IBM Plex Mono", monospace !important;
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.43;
+  border-color: #736b5e;
+  scrollbar-color: #454a4d #202324;
+}
