@@ -20,7 +20,7 @@ const TOC = () => {
             Preview & buy book for $99
           </Button>
         </Box>
-        <Grid container spacing={2}>
+        <Grid container spacing={2} >
 
           <Grid item xs={6}>
             <Grid container  spacing={2} >
@@ -41,13 +41,13 @@ const TOC = () => {
                       color: "#fff",
                     }}
                   >
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       What you will learn
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Why should I pay $99 for this book?
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Project structure
                     </ListItem>
                     <ListItem
@@ -56,6 +56,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Customer pages
@@ -66,11 +67,12 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Admin pages
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Authors
                     </ListItem>
                   </List>
@@ -95,7 +97,7 @@ const TOC = () => {
                       color: "#fff",
                     }}
                   >
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Book data model
                     </ListItem>
                     <ListItem
@@ -104,6 +106,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Schema for Book data model
@@ -114,11 +117,12 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Static methods for Book data model
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Chapter data model
                     </ListItem>
                     <ListItem
@@ -127,6 +131,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Schema for Chapter data model
@@ -137,14 +142,15 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Static methods for Chapter data model
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       MongoDB index
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       API infrastructure and user roles
                     </ListItem>
                     <ListItem
@@ -153,6 +159,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Pages and components for user roles
@@ -163,6 +170,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       API methods by user roles
@@ -173,6 +181,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Express routes by user roles
@@ -183,11 +192,12 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Custom routing for pages
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Read chapter API
                     </ListItem>
                     <ListItem
@@ -196,6 +206,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       ReadChapter page
@@ -206,6 +217,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Testing Read chapter API
@@ -236,7 +248,7 @@ const TOC = () => {
                       color: "#fff",
                     }}
                   >
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Book data model
                     </ListItem>
                     <ListItem
@@ -245,6 +257,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Schema for Book data model
@@ -255,11 +268,12 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Static methods for Book data model
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Chapter data model
                     </ListItem>
                     <ListItem
@@ -268,6 +282,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Schema for Chapter data model
@@ -278,14 +293,15 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Static methods for Chapter data model
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       MongoDB index
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       API infrastructure and user roles
                     </ListItem>
                     <ListItem
@@ -294,6 +310,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Pages and components for user roles
@@ -304,6 +321,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       API methods by user roles
@@ -314,6 +332,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Express routes by user roles
@@ -324,11 +343,12 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Custom routing for pages
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Read chapter API
                     </ListItem>
                     <ListItem
@@ -337,6 +357,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       ReadChapter page
@@ -347,6 +368,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Testing Read chapter API
@@ -373,7 +395,7 @@ const TOC = () => {
                       color: "#fff",
                     }}
                   >
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Book data model
                     </ListItem>
                     <ListItem
@@ -382,6 +404,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Schema for Book data model
@@ -392,11 +415,12 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Static methods for Book data model
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Chapter data model
                     </ListItem>
                     <ListItem
@@ -405,6 +429,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Schema for Chapter data model
@@ -415,14 +440,15 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Static methods for Chapter data model
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       MongoDB index
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       API infrastructure and user roles
                     </ListItem>
                     <ListItem
@@ -431,6 +457,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Pages and components for user roles
@@ -441,6 +468,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       API methods by user roles
@@ -451,6 +479,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Express routes by user roles
@@ -461,11 +490,12 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Custom routing for pages
                     </ListItem>
-                    <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+                    <ListItem sx={{ fontWeight:'500',fontSize:'1.2rem', display: "list-item", m: 0, p: 0 }}>
                       Read chapter API
                     </ListItem>
                     <ListItem
@@ -474,6 +504,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       ReadChapter page
@@ -484,6 +515,7 @@ const TOC = () => {
                         display: "list-item",
                         m: 0,
                         padding: "0 0 0 20px",
+                        fontWeight:'500',fontSize:'1.2rem',
                       }}
                     >
                       Testing Read chapter API

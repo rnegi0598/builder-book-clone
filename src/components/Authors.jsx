@@ -11,7 +11,7 @@ import {
 const Authors = () => {
   return (
     <>
-      <Container maxWidth="sm" sx={{ p: 7 }}>
+      <Container maxWidth="sm" sx={{ pt: 7 }}>
         <Typography variant="h3" textAlign="center" fontWeight={600}>
           Authors
         </Typography>
@@ -47,31 +47,33 @@ const Authors = () => {
             listStylePosition: "inside",
             pl: 2,
             color: "#fff",
+            
+           
           }}
         >
-          <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
-            maintain two popular repos - saas and builderbook (combined: over
+          <ListItem sx={{ display: "list-item", m: 0, p: 0 ,fontSize:'1rem'}}>
+            maintain two popular repos - <Typography component='span' color="text.secondary">saas</Typography> and <Typography component='span' color="text.secondary">builderbook</Typography> (combined: over
             6000 stars and 1000 unique visitors per week).
           </ListItem>
 
-          <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
+          <ListItem sx={{ display: "list-item", m: 0, p: 0 ,fontSize:'1rem'}}>
             built and maintain the most popular React/Typescript/Node
-            boilerplate for starting a SaaS business.
+            <Typography component='span' color="text.secondary">boilerplate</Typography> for starting a SaaS business.
           </ListItem>
 
-          <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
-            built Async, open source team communcation web app to separate
+          <ListItem sx={{ display: "list-item", m: 0, p: 0 ,fontSize:'1rem'}}>
+            built <Typography component='span' color="text.secondary">Async</Typography>, open source team communcation web app to separate
             urgent vs non-urgent conversations.
           </ListItem>
 
-          <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
-            built Work in biotech, growing niche job board for small biotech
+          <ListItem sx={{ display: "list-item", m: 0, p: 0,fontSize:'1rem' }}>
+            built  <Typography component='span' color="text.secondary">Work in biotech</Typography>, growing niche job board for small biotech
             startups.
           </ListItem>
 
-          <ListItem sx={{ display: "list-item", m: 0, p: 0 }}>
-            built over a dozen SaaS web applications in the last 5 years and
-            offer custom development service: async-labs.com
+          <ListItem sx={{ display: "list-item", m: 0, p: 0 ,fontSize:'1rem'}}>
+            built over a dozen SaaS web applications in the, last 5 years and
+            offer custom development service: <Typography component='span' color="text.secondary">async-labs.com</Typography>
           </ListItem>
         </List>
       </Container>

@@ -21,7 +21,7 @@ const AboutBook = () => {
   ];
   return (
     <>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{color:'#c9d1d9'}}>
         <Typography variant="h3" textAlign="center">
           Why this book?
         </Typography>
